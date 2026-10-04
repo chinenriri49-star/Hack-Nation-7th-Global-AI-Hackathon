@@ -1,0 +1,29 @@
+1
+00:00:00,000 --> 00:00:10,000
+Maria starts with one search for STXBP1.
+Choose disease, mechanism, or evidence views.
+
+2
+00:00:10,000 --> 00:00:20,000
+A disease opens symptoms, ChatGPT, papers,
+and patient communities in one place.
+
+3
+00:00:20,000 --> 00:00:30,000
+Every edge has a reason, a confidence label,
+and a linked source. Similarity is not treatment proof.
+
+4
+00:00:30,000 --> 00:00:40,000
+Find directly matched researchers first.
+Show more reveals related disease and gene expertise.
+
+5
+00:00:40,000 --> 00:00:50,000
+Turn a discovery into a concrete research action:
+ask about study endpoints and compare outcome measures.
+
+6
+00:00:50,000 --> 00:01:00,000
+Missing evidence stays visible.
+The 10x research-planning target remains a hypothesis.

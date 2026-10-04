@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "title": "Mechanism-first rare disease knowledge graph",
+    "version": "0.1.0",
+    "demo_persona": "A patient advocacy leader for STXBP1-related disorder",
+    "scope": "Small hackathon MVP dataset focused on STXBP1-related disorder, Dravet syndrome, and CDKL5 deficiency disorder.",
+    "disclaimer": "Prototype dataset for demo and product validation only. It is not medical advice and should be reviewed by qualified clinicians and researchers before use."
+  },
+  "nodes": [
+    {
+      "id": "dis_1",
+      "label": "STXBP1-related disorder",
+      "category": "Disease",
+      "details": "A rare developmental and epileptic encephalopathy caused by pathogenic variants in STXBP1. Key challenges include early-onset seizures, developmental delay, intellectual disability, movement differences, and limited disease-specific treatments.",
+      "plain_language": "Children and adults whose brain cells have trouble communicating because one STXBP1 copy is not working as expected.",
+      "keywords": ["stxbp1", "dee4", "developmental epileptic encephalopathy", "munc18-1", "epilepsy"]
+    },
+    {
+      "id": "dis_2",
+      "label": "Dravet syndrome",
+      "category": "Disease",
+      "details": "A severe childhood-onset developmental and epileptic encephalopathy, most often caused by loss-of-function variants in SCN1A. It has comparatively mature clinical trial experience for seizure outcomes.",
+      "plain_language": "A related epilepsy community with trial experience that other communities can learn from.",
+      "keywords": ["dravet", "scn1a", "nav1.1", "developmental epileptic encephalopathy", "epilepsy"]
+    },
+    {
+      "id": "dis_3",
+      "label": "CDKL5 deficiency disorder",
+      "category": "Disease",
+      "details": "A developmental epileptic encephalopathy caused by pathogenic variants in CDKL5, with early-onset seizures, severe developmental impairment, and synaptic development abnormalities.",
+      "plain_language": "A peer rare-disease community facing similar early-life seizure and development challenges.",
+      "keywords": ["cdkl5", "cdd", "developmental epileptic encephalopathy", "synapse", "epilepsy"]
+    },
+    {
+      "id": "gene_1",
+      "label": "STXBP1",
+      "category": "Gene",
+      "details": "Encodes syntaxin-binding protein 1 / MUNC18-1, a presynaptic protein required for synaptic vesicle docking and neurotransmitter release.",
+      "plain_language": "The gene that helps nerve cells release messages to each other.",
+      "keywords": ["stxbp1", "munc18-1", "syntaxin-binding protein 1"]
+    },
+    {
+      "id": "gene_2",
+      "label": "SCN1A",
+      "category": "Gene",
+      "details": "Encodes the Nav1.1 voltage-gated sodium channel. Loss of function is strongly associated with Dravet syndrome and impaired inhibitory interneuron firing.",
+      "plain_language": "A gene for a sodium channel that helps neurons fire correctly.",
+      "keywords": ["scn1a", "nav1.1", "sodium channel"]
+    },
+    {
+      "id": "gene_3",
+      "label": "CDKL5",
+      "category": "Gene",
+      "details": "Encodes cyclin-dependent kinase-like 5, a kinase important for brain development, dendritic growth, synapse formation, and neuronal function.",
+      "plain_language": "A gene important for how young brain cells grow and build connections.",
+      "keywords": ["cdkl5", "kinase", "synapse", "dendrite"]
+    },
+    {
+      "id": "mech_1",
+      "label": "Presynaptic vesicle release / SNARE regulation",
+      "category": "Mechanism",
+      "details": "A mechanism involving docking, priming, and fusion of synaptic vesicles so neurons can release neurotransmitters.",
+      "plain_language": "The message-release machinery at the end of a neuron.",
+      "keywords": ["synaptic vesicle", "snare", "neurotransmitter release", "presynaptic"]
+    },
+    {
+      "id": "mech_2",
+      "label": "Excitation-inhibition imbalance",
+      "category": "Mechanism",
+      "details": "A shared epilepsy mechanism where the balance between excitatory and inhibitory signaling is disrupted, making seizure networks easier to trigger.",
+      "plain_language": "The brain's accelerator and brake signals become unbalanced.",
+      "keywords": ["hyperexcitability", "inhibition", "gaba", "seizure", "circuit"]
+    },
+    {
+      "id": "mech_3",
+      "label": "Synapse development and dendritic morphology",
+      "category": "Mechanism",
+      "details": "A neurodevelopmental mechanism involving abnormal formation, pruning, or maintenance of synapses and neuronal branches.",
+      "plain_language": "The way brain cells grow branches and build lasting connections.",
+      "keywords": ["synapse formation", "dendrite", "axon outgrowth", "neuronal development"]
+    },
+    {
+      "id": "mech_4",
+      "label": "Ion channel dysfunction",
+      "category": "Mechanism",
+      "details": "A mechanism where altered ion channel function changes neuronal firing patterns and seizure susceptibility.",
+      "plain_language": "The electrical gates in neurons do not work normally.",
+      "keywords": ["ion channel", "sodium channel", "nav1.1", "electrical signaling"]
+    },
+    {
+      "id": "paper_1",
+      "label": "STXBP1 GeneReviews",
+      "category": "Publication",
+      "details": "GeneReviews chapter summarizing clinical features, genetics, management, and molecular pathogenesis of STXBP1 encephalopathy with epilepsy.",
+      "plain_language": "A trusted clinical reference for STXBP1.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK396561/",
+      "keywords": ["stxbp1", "genereviews", "clinical reference"]
+    },
+    {
+      "id": "paper_2",
+      "label": "Protein instability and cortical hyper-excitability underlie STXBP1 encephalopathy",
+      "category": "Publication",
+      "details": "Experimental study supporting STXBP1 haploinsufficiency, impaired synaptic transmission, and cortical hyperexcitability as disease mechanisms.",
+      "plain_language": "A study showing why reduced STXBP1 function can disturb brain circuits.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+      "keywords": ["stxbp1", "haploinsufficiency", "hyperexcitability", "mouse model"]
+    },
+    {
+      "id": "paper_3",
+      "label": "Fast-spiking interneuron dysfunction in Dravet syndrome",
+      "category": "Publication",
+      "details": "Mouse-model study linking SCN1A/Nav1.1 loss to inhibitory interneuron dysfunction, reduced inhibition, and hyperexcitability.",
+      "plain_language": "A Dravet study explaining how a faulty brake system in brain circuits can trigger seizures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30104343/",
+      "keywords": ["dravet", "scn1a", "interneuron", "hyperexcitability"]
+    },
+    {
+      "id": "paper_4",
+      "label": "CDKL5 deficiency disorder: clinical features, diagnosis, and management",
+      "category": "Publication",
+      "details": "Clinical review of CDKL5 deficiency disorder, including diagnosis, symptoms, management, and trial-readiness considerations.",
+      "plain_language": "A clinical overview of CDKL5 to compare with STXBP1.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35483386/",
+      "keywords": ["cdkl5", "clinical review", "management"]
+    },
+    {
+      "id": "paper_5",
+      "label": "Molecular and synaptic bases of CDKL5 disorder",
+      "category": "Publication",
+      "details": "Review describing how CDKL5 affects axon outgrowth, dendritic morphogenesis, synapse formation, and neuronal function.",
+      "plain_language": "A paper connecting CDKL5 to how neurons grow and connect.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30246934/",
+      "keywords": ["cdkl5", "synapse formation", "dendrite", "axon"]
+    },
+    {
+      "id": "paper_6",
+      "label": "Fenfluramine randomized clinical trial in Dravet syndrome",
+      "category": "Publication",
+      "details": "Randomized clinical trial in Dravet syndrome that can inspire endpoint selection, caregiver-reported outcomes, and seizure-frequency trial design for related DEEs.",
+      "plain_language": "A trial blueprint to review for endpoint and diary design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31790543/",
+      "keywords": ["dravet", "clinical trial", "fenfluramine", "endpoint"]
+    },
+    {
+      "id": "researcher_1",
+      "label": "Saadet Mercimek-Andrews",
+      "category": "Researcher",
+      "details": "Clinical genetics and neurogenetics researcher; author of the STXBP1 GeneReviews chapter.",
+      "plain_language": "A clinician-scientist connected to a trusted STXBP1 reference.",
+      "keywords": ["stxbp1", "clinical genetics", "genereviews"]
+    },
+    {
+      "id": "researcher_2",
+      "label": "Rima Nabbout",
+      "category": "Researcher",
+      "details": "Epileptologist and clinical trial researcher associated with Dravet syndrome fenfluramine trial publications.",
+      "plain_language": "A Dravet trial expert to ask about trial-design lessons.",
+      "keywords": ["dravet", "clinical trial", "epilepsy"]
+    },
+    {
+      "id": "researcher_3",
+      "label": "Scott Demarest",
+      "category": "Researcher",
+      "details": "Clinician-researcher and author on CDKL5 deficiency disorder clinical management literature.",
+      "plain_language": "A CDKL5 expert who may understand rare DEE outcome measures.",
+      "keywords": ["cdkl5", "clinical management", "dee"]
+    },
+    {
+      "id": "group_1",
+      "label": "STXBP1 Foundation",
+      "category": "PatientGroup",
+      "details": "Patient advocacy organization supporting research, community studies, and patient-centered work for STXBP1 disorders.",
+      "plain_language": "A community for registry and patient voice work.",
+      "url": "https://www.stxbp1disorders.org/",
+      "keywords": ["stxbp1", "patient group", "registry"]
+    },
+    {
+      "id": "group_2",
+      "label": "Dravet Syndrome Foundation",
+      "category": "PatientGroup",
+      "details": "Patient advocacy organization supporting Dravet syndrome research, family support, registries, and community collaboration.",
+      "plain_language": "An advocacy community to ask about research planning.",
+      "url": "https://dravetfoundation.org/",
+      "keywords": ["dravet", "patient group", "registry", "trial readiness"]
+    },
+    {
+      "id": "group_3",
+      "label": "International Foundation for CDKL5 Research",
+      "category": "PatientGroup",
+      "details": "Patient advocacy organization supporting CDKL5 deficiency disorder research, family resources, and treatment development.",
+      "plain_language": "A peer rare-disease advocacy group with lessons for STXBP1.",
+      "url": "https://cdkl5.com/",
+      "keywords": ["cdkl5", "patient group", "research foundation"]
+    }
+  ],
+  "edges": [
+    {
+      "source": "dis_1",
+      "target": "gene_1",
+      "relationship": "CAUSED_BY",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK396561/",
+      "confidence": "High",
+      "explanation": "STXBP1-related disorder is directly linked to disease-causing variants in the STXBP1 gene."
+    },
+    {
+      "source": "gene_1",
+      "target": "mech_1",
+      "relationship": "DISRUPTS_MECHANISM",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK396561/",
+      "confidence": "High",
+      "explanation": "STXBP1 helps neurons release chemical messages at synapses. When it does not work properly, communication between neurons can be disrupted."
+    },
+    {
+      "source": "dis_1",
+      "target": "mech_2",
+      "relationship": "INVOLVES_MECHANISM",
+      "evidence_source": "PubMed:29538625",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+      "confidence": "High",
+      "explanation": "STXBP1 models show hyperexcitability, meaning brain circuits may become too easy to activate and produce seizures."
+    },
+    {
+      "source": "dis_2",
+      "target": "gene_2",
+      "relationship": "CAUSED_BY",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK1318/",
+      "confidence": "High",
+      "explanation": "Many Dravet syndrome cases are caused by pathogenic variants in SCN1A."
+    },
+    {
+      "source": "gene_2",
+      "target": "mech_4",
+      "relationship": "DISRUPTS_MECHANISM",
+      "evidence_source": "MedlinePlus Genetics",
+      "evidence_url": "https://medlineplus.gov/genetics/gene/scn1a/",
+      "confidence": "High",
+      "explanation": "SCN1A affects sodium channels that help neurons fire electrical signals."
+    },
+    {
+      "source": "dis_2",
+      "target": "mech_2",
+      "relationship": "INVOLVES_MECHANISM",
+      "evidence_source": "PubMed:30104343",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30104343/",
+      "confidence": "High",
+      "explanation": "In Dravet models, inhibitory neurons can be impaired, reducing the brain's braking system and contributing to seizures."
+    },
+    {
+      "source": "dis_3",
+      "target": "gene_3",
+      "relationship": "CAUSED_BY",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK602610/",
+      "confidence": "High",
+      "explanation": "CDKL5 deficiency disorder is caused by pathogenic variants in CDKL5."
+    },
+    {
+      "source": "gene_3",
+      "target": "mech_3",
+      "relationship": "DISRUPTS_MECHANISM",
+      "evidence_source": "PubMed:30246934",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30246934/",
+      "confidence": "High",
+      "explanation": "CDKL5 helps developing neurons grow branches and form synapses, so CDKL5 disruption can affect how brain circuits are built."
+    },
+    {
+      "source": "dis_3",
+      "target": "mech_2",
+      "relationship": "INVOLVES_MECHANISM",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK602610/",
+      "confidence": "Medium",
+      "explanation": "CDKL5 disorder includes early severe seizures and synaptic abnormalities, suggesting overlap with broader excitation-inhibition imbalance seen in developmental epileptic encephalopathies."
+    },
+    {
+      "source": "dis_1",
+      "target": "dis_2",
+      "relationship": "SHARES_MECHANISM",
+      "evidence_source": "PubMed:29538625 and PubMed:30104343",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+      "confidence": "Medium",
+      "explanation": "The disease names and genes are different, but both point toward overactive seizure-prone circuits caused by disrupted neuronal communication."
+    },
+    {
+      "source": "dis_1",
+      "target": "dis_3",
+      "relationship": "SHARES_MECHANISM",
+      "evidence_source": "GeneReviews STXBP1 and PubMed:30246934",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30246934/",
+      "confidence": "Medium",
+      "explanation": "Both conditions involve early developmental epilepsy and problems in synaptic biology, making CDKL5 a useful comparison disease for STXBP1 research planning."
+    },
+    {
+      "source": "paper_1",
+      "target": "dis_1",
+      "relationship": "DESCRIBES",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK396561/",
+      "confidence": "High",
+      "explanation": "This review is a starting source to understand STXBP1 clinical features and disease mechanisms."
+    },
+    {
+      "source": "paper_2",
+      "target": "mech_1",
+      "relationship": "SUPPORTS",
+      "evidence_source": "PubMed:29538625",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/29538625/",
+      "confidence": "High",
+      "explanation": "This study supports the idea that STXBP1 disease can involve reduced protein function and impaired synaptic transmission."
+    },
+    {
+      "source": "paper_3",
+      "target": "mech_2",
+      "relationship": "SUPPORTS",
+      "evidence_source": "PubMed:30104343",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30104343/",
+      "confidence": "High",
+      "explanation": "This Dravet study explains how impaired inhibitory neurons can make seizure circuits unstable."
+    },
+    {
+      "source": "paper_4",
+      "target": "dis_3",
+      "relationship": "DESCRIBES",
+      "evidence_source": "PubMed:35483386",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/35483386/",
+      "confidence": "High",
+      "explanation": "This review summarizes CDKL5 clinical features and management, useful for comparing patient-reported outcomes and natural history needs."
+    },
+    {
+      "source": "paper_5",
+      "target": "mech_3",
+      "relationship": "SUPPORTS",
+      "evidence_source": "PubMed:30246934",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/30246934/",
+      "confidence": "High",
+      "explanation": "This paper connects CDKL5 to synapse formation and neuronal development, which may help identify shared biology beyond the disease name."
+    },
+    {
+      "source": "paper_6",
+      "target": "dis_2",
+      "relationship": "CLINICAL_TRIAL_EVIDENCE",
+      "evidence_source": "PubMed:31790543",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31790543/",
+      "confidence": "High",
+      "explanation": "Dravet has completed randomized trials, so communities can study how endpoints, inclusion criteria, and caregiver measures were designed."
+    },
+    {
+      "source": "researcher_1",
+      "target": "paper_1",
+      "relationship": "AUTHORED",
+      "evidence_source": "GeneReviews / NCBI Bookshelf",
+      "evidence_url": "https://www.ncbi.nlm.nih.gov/books/NBK396561/",
+      "confidence": "High",
+      "explanation": "This researcher is connected to a trusted STXBP1 clinical reference and may help identify clinical knowledge gaps."
+    },
+    {
+      "source": "researcher_2",
+      "target": "paper_6",
+      "relationship": "AUTHORED",
+      "evidence_source": "PubMed:31790543",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31790543/",
+      "confidence": "High",
+      "explanation": "This researcher is connected to Dravet clinical trial experience to ask about."
+    },
+    {
+      "source": "researcher_3",
+      "target": "paper_4",
+      "relationship": "AUTHORED",
+      "evidence_source": "PubMed:35483386",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/35483386/",
+      "confidence": "High",
+      "explanation": "This researcher is connected to CDKL5 clinical management literature and may offer lessons for outcome measures and family-centered care."
+    },
+    {
+      "source": "dis_1",
+      "target": "group_1",
+      "relationship": "HAS_PATIENT_GROUP",
+      "evidence_source": "STXBP1 Foundation",
+      "evidence_url": "https://www.stxbp1disorders.org/",
+      "confidence": "High",
+      "explanation": "The STXBP1 Foundation is a starting point for patient registry, natural history, and community engagement questions."
+    },
+    {
+      "source": "dis_2",
+      "target": "group_2",
+      "relationship": "HAS_PATIENT_GROUP",
+      "evidence_source": "Dravet Syndrome Foundation",
+      "evidence_url": "https://dravetfoundation.org/",
+      "confidence": "High",
+      "explanation": "The Dravet community has advocacy and trial-readiness experience to learn from."
+    },
+    {
+      "source": "dis_3",
+      "target": "group_3",
+      "relationship": "HAS_PATIENT_GROUP",
+      "evidence_source": "International Foundation for CDKL5 Research",
+      "evidence_url": "https://cdkl5.com/we-are-ifcr",
+      "confidence": "High",
+      "explanation": "The CDKL5 community is a useful peer community for sharing approaches to registries, family education, and research funding."
+    },
+    {
+      "source": "dis_1",
+      "target": "researcher_2",
+      "relationship": "NEXT_ACTION_CONTACT",
+      "evidence_source": "Inference from shared DEE trial pathway; supporting source PubMed:31790543",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31790543/",
+      "confidence": "Hypothesis",
+      "explanation": "Contact Dravet trial experts to ask which trial endpoints or caregiver-reported measures might transfer to STXBP1. This is an action hypothesis, not proof of an existing STXBP1 collaboration."
+    },
+    {
+      "source": "dis_1",
+      "target": "group_2",
+      "relationship": "NEXT_ACTION_LEARN_FROM_COMMUNITY",
+      "evidence_source": "Dravet Syndrome Foundation",
+      "evidence_url": "https://dravetfoundation.org/",
+      "confidence": "Hypothesis",
+      "explanation": "Review how the Dravet community organized patient voice data, registries, and trial-readiness resources, then ask whether the playbook could be adapted for STXBP1."
+    },
+    {
+      "source": "dis_1",
+      "target": "paper_6",
+      "relationship": "NEXT_ACTION_REUSE_TRIAL_MODEL",
+      "evidence_source": "PubMed:31790543",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/31790543/",
+      "confidence": "Medium",
+      "explanation": "Do not copy the medicine choice directly. Ask an expert whether seizure-frequency endpoints, age ranges, caregiver diaries, and safety-monitoring ideas from the Dravet trial could be adapted."
+    },
+    {
+      "source": "dis_1",
+      "target": "researcher_3",
+      "relationship": "NEXT_ACTION_CONTACT",
+      "evidence_source": "Inference from shared early-onset DEE and CDKL5 management literature; supporting source PubMed:35483386",
+      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/35483386/",
+      "confidence": "Hypothesis",
+      "explanation": "Ask CDKL5 experts about outcome measures for a rare developmental epileptic encephalopathy community. This connection is a research outreach hypothesis."
+    }
+  ],
+  "actions": [
+    {
+      "id": "action_1",
+      "trigger_node": "dis_1",
+      "title": "Email a Dravet clinical trial expert",
+      "owner": "Patient advocacy leader",
+      "timeframe": "This week",
+      "confidence": "Hypothesis",
+      "why_it_matters": "Dravet has completed randomized seizure trials. Communities can review which endpoints, diary designs, and caregiver-reported outcomes were used.",
+      "suggested_message": "We are building trial readiness for STXBP1-related disorder. Because STXBP1 and Dravet both involve early-onset developmental epilepsy and circuit hyperexcitability, could we ask what trial-design lessons from Dravet might transfer to STXBP1?"
+    },
+    {
+      "id": "action_2",
+      "trigger_node": "dis_1",
+      "title": "Reuse the Dravet trial-readiness checklist",
+      "owner": "Patient community + STXBP1 Foundation",
+      "timeframe": "Next 30 days",
+      "confidence": "Medium",
+      "why_it_matters": "The fastest path is not to invent a trial process from scratch, but to adapt an existing rare epilepsy playbook.",
+      "suggested_message": "Map STXBP1 registry fields to Dravet-style seizure frequency, rescue medication, caregiver burden, and safety-monitoring fields."
+    },
+    {
+      "id": "action_3",
+      "trigger_node": "dis_1",
+      "title": "Compare CDKL5 and STXBP1 outcome measures",
+      "owner": "Patient community + clinician advisor",
+      "timeframe": "Next 2 weeks",
+      "confidence": "Medium",
+      "why_it_matters": "CDKL5 is a peer developmental epileptic encephalopathy with severe early seizures and developmental impact. Outcome measures may transfer better than broad epilepsy measures.",
+      "suggested_message": "Build a one-page comparison of seizure, sleep, motor, visual, GI, and caregiver-burden measures used in CDKL5 and STXBP1."
+    },
+    {
+      "id": "action_4",
+      "trigger_node": "dis_1",
+      "title": "Mark unsupported routes explicitly",
+      "owner": "Product team",
+      "timeframe": "Before demo",
+      "confidence": "High",
+      "why_it_matters": "Judges reward systems that avoid unsupported claims. Hypothesis edges should be useful, but clearly labeled as not yet proven.",
+      "suggested_message": "Show a 'No supported route yet' state when a search is outside the curated dataset."
+    }
+  ],
+  "moonshot": {
+    "classic_path_months": 60,
+    "graph_assisted_path_months": 6,
+    "claim": "A mechanism-first graph can compress early discovery, outreach, and trial-readiness planning from years to months by reusing assets from biologically related disease communities.",
+    "steps": [
+      {
+        "label": "Find related mechanisms",
+        "classic": "Months of manual literature review",
+        "with_graph": "Minutes through One Search"
+      },
+      {
+        "label": "Identify reusable assets",
+        "classic": "Start registry and trial design from scratch",
+        "with_graph": "Borrow templates from Dravet and CDKL5"
+      },
+      {
+        "label": "Find experts",
+        "classic": "Cold networking through conferences",
+        "with_graph": "Evidence-linked contact shortlist"
+      },
+      {
+        "label": "Avoid unsupported claims",
+        "classic": "Hard to audit spreadsheets",
+        "with_graph": "Every edge has evidence and confidence"
+      }
+    ]
+  }
+}
