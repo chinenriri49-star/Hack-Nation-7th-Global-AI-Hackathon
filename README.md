@@ -29,17 +29,6 @@ Select repository `chinenriri49-star/Hack-Nation-7th-Global-AI-Hackathon`, branc
 
 Suggested Action functionality takes inspiration from [Asclepius](https://asclepius.avinash.social/next-step): concrete next steps, evidence, applicability questions, and an outreach draft.
 
-### Submission
-
-- [Detailed README](APP_README.md)
-- [Render deployment configuration](render.yaml)
-
-```bash
-python -m unittest discover -s . -p test_app.py
-```
-
-This is an independent hackathon prototype, not an official Buffalo Initiative service or medical advice. The researcher counts cover only the curated dataset. Missing IF values and unsupported routes are explicit. The 10x comparison is a planning target, not a measured drug-development outcome.
-
 ### License
 
 Original code and documentation are licensed under the [MIT License](LICENSE).
