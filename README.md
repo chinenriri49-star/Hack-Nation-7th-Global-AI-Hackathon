@@ -41,3 +41,9 @@ python -m unittest discover -s . -p test_app.py
 ```
 
 This is an independent hackathon prototype, not an official Buffalo Initiative service or medical advice. The researcher counts cover only the curated dataset. Missing IF values and unsupported routes are explicit. The 10x comparison is a planning target, not a measured drug-development outcome.
+
+### License
+
+Original code and documentation are licensed under the [MIT License](LICENSE).
+
+The Buffalo Initiative logo and branding (including their appearance in the demo video), third-party publications and source materials, and dependencies are excluded from this project's MIT license. They remain subject to their respective owners' rights and licenses. Source links and attribution do not grant permission to reuse those materials or imply endorsement.
