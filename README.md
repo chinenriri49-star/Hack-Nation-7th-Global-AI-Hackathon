@@ -2,6 +2,8 @@
 
 ## Buffalo Rare Disease One Search
 
+[Open the live app](https://buffalo-rare-disease-one-search.streamlit.app/)
+
 A Streamlit hackathon prototype that helps patient communities discover related diseases, evidence, researchers, and research-planning actions. The curated demo covers STXBP1-related disorder, Dravet syndrome, and CDKL5 deficiency disorder.
 
 - Search once by disease, gene, or symptom.
