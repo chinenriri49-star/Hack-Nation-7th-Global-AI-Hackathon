@@ -32,8 +32,6 @@ Suggested Action functionality takes inspiration from [Asclepius](https://asclep
 ### Submission
 
 - [Detailed README](APP_README.md)
-- [60-second captioned screenshot walkthrough](demo.mp4)
-- [English narration](demo_script.md)
 - [Render deployment configuration](render.yaml)
 
 ```bash
@@ -46,4 +44,4 @@ This is an independent hackathon prototype, not an official Buffalo Initiative s
 
 Original code and documentation are licensed under the [MIT License](LICENSE).
 
-The Buffalo Initiative logo and branding (including their appearance in the demo video), third-party publications and source materials, and dependencies are excluded from this project's MIT license. They remain subject to their respective owners' rights and licenses. Source links and attribution do not grant permission to reuse those materials or imply endorsement.
+The Buffalo Initiative logo and branding, third-party publications and source materials, and dependencies are excluded from this project's MIT license. They remain subject to their respective owners' rights and licenses. Source links and attribution do not grant permission to reuse those materials or imply endorsement.

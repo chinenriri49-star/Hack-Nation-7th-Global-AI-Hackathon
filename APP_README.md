@@ -59,9 +59,7 @@ export OPENAI_MODEL="gpt-4o-mini"
 streamlit run app.py
 ```
 
-## Demo script for a 60-second video
-
-`demo.mp4` is a silent, 60-second walkthrough assembled from verified app screenshots with English captions. It is not a live screen recording and does not demonstrate a live API call. `demo.srt` contains the captions; `demo_script.md` contains narration for a recorded version.
+## App walkthrough
 
 1. Open the app and search `STXBP1`.
 2. Show the mechanism-first graph. Point out that STXBP1 connects to Dravet and CDKL5 through shared seizure-circuit and synaptic mechanisms.
@@ -71,7 +69,7 @@ streamlit run app.py
    - email a Dravet clinical trial expert
    - reuse the Dravet trial-readiness checklist
    - compare CDKL5 and STXBP1 outcome measures
-6. Open the 10x vision tab and describe the 10x planning target as a hypothesis. See `demo_script.md` for the updated narration.
+6. Open the 10x vision tab and describe the 10x planning target as a hypothesis.
 
 ## Deployment
 
